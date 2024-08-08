@@ -17,7 +17,7 @@ const menuitemroutes = require('./routes/menuItemroutes');
 app.use('/person',personroutes);
 app.use('/menu',menuitemroutes);
 
-
+// comment for testing 
 
 app.listen(3000,()=>{
   console.log('listenig on port 3000');
